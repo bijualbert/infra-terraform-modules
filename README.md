@@ -7,25 +7,25 @@ An **opinionated** set of **Terraform 0.12** compatible modules for standardized
 The directories in this repository are organized in the following way:
 
 - [**Examples**](examples): contains examples on how to use all available modules. These examples are also used to validate changes.
-- [**Modules**](modules): contains all available modules and documentation on how to use each of them.
+- [**Modules**](aws and vmware): contains all available modules and documentation on how to use each of them.
 
 ## Available Modules
 
 ### AWS
 
-- [**api_gateway_cors**](modules/aws/api_gateway_cors)
-- [**api_gateway_custom_authorizer**](modules/aws/api_gateway_custom_authorizer)
-- [**api_gateway_method_to_lambda**](modules/aws/api_gateway_method_to_lambda)
-- [**api_gateway_rest_api**](modules/aws/api_gateway_rest_api)
-- [**config_custom_rule**](modules/aws/config_custom_rule)
-- [**ecr_repository**](modules/aws/ecr_repository)
-- [**ecs_fargate_task**](modules/aws/ecs_fargate_task)
-- [**iam_role_with_policy**](modules/aws/iam_role_with_policy)
-- [**lambda_function**](modules/aws/lambda_function)
-- [**lambda_function_event_rule**](modules/aws/lambda_function_event_rule)
-- [**lambda_function_sns**](modules/aws/lambda_function_sns)
-- [**lambda_function_sqs**](modules/aws/lambda_function_sqs)
-- [**sfn_state_machine**](modules/aws/sfn_state_machine)
+- [**api_gateway_cors**](aws/api_gateway_cors)
+- [**api_gateway_custom_authorizer**](aws/api_gateway_custom_authorizer)
+- [**api_gateway_method_to_lambda**](aws/api_gateway_method_to_lambda)
+- [**api_gateway_rest_api**](aws/api_gateway_rest_api)
+- [**config_custom_rule**](aws/config_custom_rule)
+- [**ecr_repository**](aws/ecr_repository)
+- [**ecs_fargate_task**]aws/ecs_fargate_task)
+- [**iam_role_with_policy**](aws/iam_role_with_policy)
+- [**lambda_function**](aws/lambda_function)
+- [**lambda_function_event_rule**](aws/lambda_function_event_rule)
+- [**lambda_function_sns**](aws/lambda_function_sns)
+- [**lambda_function_sqs**](aws/lambda_function_sqs)
+- [**sfn_state_machine**](aws/sfn_state_machine)
 
 ## Versions 0.2.x (deprecated)
 
