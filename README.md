@@ -31,4 +31,3 @@ The directories in this repository are organized in the following way:
 
 From version `0.2.x` to `0.3.x`, the set of available modules was modified and breaking changes were introduced in the modules that remained.
 
-For now, modules compatible with `0.2.x` versions were moved to [modules/aws_deprecated](modules/aws_deprecated) for bug fixes.
