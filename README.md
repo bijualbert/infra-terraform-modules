@@ -7,7 +7,7 @@ An **opinionated** set of **Terraform 0.12** compatible modules for standardized
 The directories in this repository are organized in the following way:
 
 - [**Examples**](examples): contains examples on how to use all available modules. These examples are also used to validate changes.
-- [**Modules**](aws and vmware): contains all available modules and documentation on how to use each of them.
+- [**Modules**]([**aws**](aws) and [**vsphere**](vsphere/virtual_machine)): contains all available modules and documentation on how to use each of them.
 
 ## Available Modules
 
@@ -19,7 +19,7 @@ The directories in this repository are organized in the following way:
 - [**api_gateway_rest_api**](aws/api_gateway_rest_api)
 - [**config_custom_rule**](aws/config_custom_rule)
 - [**ecr_repository**](aws/ecr_repository)
-- [**ecs_fargate_task**]aws/ecs_fargate_task)
+- [**ecs_fargate_task**](aws/ecs_fargate_task)
 - [**iam_role_with_policy**](aws/iam_role_with_policy)
 - [**lambda_function**](aws/lambda_function)
 - [**lambda_function_event_rule**](aws/lambda_function_event_rule)
